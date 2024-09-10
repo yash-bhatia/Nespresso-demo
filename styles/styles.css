@@ -11,14 +11,14 @@
  * OF ANY KIND, either express or implied. See the License for the specific language
  * governing permissions and limitations under the License.
  */
- 
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 
  :root,
  .dropin-design.dropin-design {
   /* Font Family  */ 
-  --heading-font-family: 'Source Serif Pro', 'Source-Serif-Pro-Fallback', sans-serif;
-  --type-base-font-family: 'Source Sans Pro', roboto, roboto-fallback, sans-serif;
-
+  --heading-font-family: "Raleway", sans-serif;
+  --type-base-font-family: "Raleway", sans-serif;
   /* body sizes */
   --body-font-size-xxs: 10px;
   --body-font-size-xs: 12px;
@@ -174,7 +174,7 @@
 }
 
 @font-face {
-  font-family: 'Source-Serif-Pro-Fallback';
+  font-family: "Raleway", sans-serif;
   src: local('Arial');
   size-adjust: 107%;
   ascent-override: normal;
@@ -222,32 +222,26 @@ main {
 
 h1 {
   font: var(--type-display-1-font);
-  letter-spacing: var(--type-display-1-letter-spacing);
 }
 
 h2 {
   font: var(--type-display-2-font);
-  letter-spacing: var(--type-display-2-letter-spacing);
 }
 
 h3 {
   font: var(--type-display-3-font);
-  letter-spacing: var(--type-display-3-letter-spacing);
 }
 
 h4 {
   font: var(--type-headline-1-font);
-  letter-spacing: var(--type-headline-1-letter-spacing);
 }
 
 h5 {
   font: var(--type-headline-2-strong-font);
-  letter-spacing: var(--type-headline-2-strong-letter-spacing);
 }
 
 h6 {
   font: var(--type-headline-2-default-font);
-  letter-spacing: var(--type-headline-2-default-letter-spacing);
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -261,12 +255,12 @@ h1,h2,h3,h4,h5,h6 {
 .section .default-content-wrapper h4::after,
 .section .default-content-wrapper h5::after,
 .section .default-content-wrapper h6::after {
-  border-bottom: 2px solid var(--color-brand-500);
+  /* border-bottom: 2px solid var(--color-brand-500);
   content: "";
   display: block;
   padding-top: 8px;
   min-width: 84px;
-  width: fit-content;
+  width: fit-content; */
 }
 
 p,
@@ -290,7 +284,6 @@ code,
 pre,
 samp {
   font: var(--type-body-2-default-font);
-  letter-spacing: var(--type-body-2-default-letter-spacing);
   font-family: var(--type-fixed-font-family);
 }
 
@@ -315,7 +308,6 @@ main pre {
 a:any-link {
   color: var(--color-black-100);
   font: var(--type-body-1-strong-font);
-  letter-spacing: var(--type-body-1-strong-letter-spacing);
   text-decoration: none;
 }
 
@@ -355,7 +347,6 @@ a.button-primary {
   padding: 8px 24px;
   width: fit-content;
   height: auto;
-  letter-spacing: 0.08em;
   box-sizing: border-box;
   text-decoration: none;
   text-align: center;
