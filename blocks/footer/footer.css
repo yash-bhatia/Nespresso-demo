@@ -1,6 +1,6 @@
 footer {
   padding: 2rem;
-  background-color: var(--color-black-100);
+  background-color: grey;
   font: var(--type-body-2-default-font);
   letter-spacing: var(--type-body-2-default-letter-spacing);
   color: var(--color-neutral-50);
@@ -9,7 +9,7 @@ footer {
 footer .footer {
   max-width: var(--large-grid-layout);
   margin: auto;
-  height: 19vh;
+  height: 80vh;
   padding: 4rem 0;
 }
 

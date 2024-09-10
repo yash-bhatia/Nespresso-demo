@@ -694,3 +694,13 @@ main .section.section-title .default-content-wrapper:first-of-type p::after {
 .dropin-design .dropin-cart-item__sku {
   display: none;
 }
+
+
+/* my added styles - yash */
+
+body > main > div.section.max-width, body > main > div.section.max-width > div{
+  max-width: 100%;
+  height: auto;
+  width:auto;
+  padding: 1px;
+}
