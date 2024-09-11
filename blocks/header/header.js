@@ -283,7 +283,9 @@ export default async function decorate(block) {
   navWrapper.className = 'header-nav-wrapper';
   navWrapper.append(nav);
   block.append(navWrapper);
-
+  document.querySelector('#nav > div.section.nav-brand > div > picture > img').onclick = function() {
+    window.location.href = 'https://main--nespresso-demo--yash-bhatia.hlx.live/';
+};
   addAnimation();
   setActiveTab();
 }

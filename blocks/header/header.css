@@ -256,7 +256,9 @@ header nav .nav-sections ul > li > a:hover {
     padding-right: 16px;
     cursor: pointer;
   }
-
+  #nav > div.section.nav-brand > div > picture > img{
+    cursor: pointer;
+  }
   header nav .nav-sections .nav-drop::after {
     content: '';
     display: inline-block;

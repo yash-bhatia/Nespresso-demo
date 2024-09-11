@@ -716,7 +716,12 @@ h3#contact-us + ul li:nth-child(4), h3#contact-us + ul li:nth-child(6), h3#conta
   background: linear-gradient(180deg, #D1DBE1 0%, #F0D2BB 58.36%, #F2D3AB 99%);
   max-width: none;
 }
-
+body > main > div.section.default-width.section-title.columns-container.recommended-products-container{
+  padding-top: 0px;
+}
+body > main > div.section.tabs-container{
+  padding-bottom: 0px;
+}
 h2#not-a-customer-yetyour-welcome-offer {
   font-weight: 700;
   letter-spacing: 1px;
