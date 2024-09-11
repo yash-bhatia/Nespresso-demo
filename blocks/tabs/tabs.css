@@ -20,8 +20,8 @@
 
 .tabs .tabs-list button {
   margin: 0;
-  border: 1px solid #dadada;
-  border-radius: 0;
+    border-left: 1px solid #dadada;  
+    border-radius: 0;
   padding: 0.5em;
   background-color: var(--light-color);
   color: initial;
@@ -48,7 +48,6 @@
 .tabs .tabs-panel {
   margin-top: -1px;
   padding: 24px;
-  border: 1px solid #dadada;
   overflow: auto;
 }
 
@@ -69,4 +68,8 @@
 .tabs .tabs-list button img {
   height: 20px;
   align-self: center;
+}
+
+.tabs-list {
+  background: #f6f6f4;
 }

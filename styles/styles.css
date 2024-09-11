@@ -211,12 +211,12 @@ header {
 
 /* Need to adjust main because of positioning of the fixed header */
 main {
-  margin-top: 105px;
+  margin-top: 20px;
 } 
 
 @media (width < 768px) {
   main {
-    margin-top: 40px;
+    /* margin-top: 40px; */
   } 
 }
 
@@ -485,8 +485,8 @@ main .section.highlight {
 }
 
 main .section.default-width {
-  max-width: var(--med-grid-layout);
   margin: 0 auto;
+  max-width: 1190px;
 }
 
 main .section.max-width {

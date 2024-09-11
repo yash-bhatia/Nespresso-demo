@@ -1,5 +1,4 @@
 footer {
-  padding: 50px;
   background-color: #fff;
   font: var(--type-body-2-default-font);
   letter-spacing: var(--type-body-2-default-letter-spacing);
@@ -29,6 +28,7 @@ footer .footer p, footer .footer h3 {
 
 footer .footer h3 {
   font-size: 20px;
+  font-weight: 400;
 }
 
 footer a {
@@ -159,4 +159,18 @@ footer .wrapper .section.site-links .default-content-wrapper ul li a {
   .footer .wrapper .section.social-media img {
     padding: 0.5em 0.5em 0.2em;
   }
+}
+
+
+footer .footer ul li img {
+  height: 20px;
+  width: auto;
+  padding-right: 5px;
+}
+
+footer .footer ul li {
+  list-style: none;
+  color: #454547;
+  display: flex;
+  align-items: center;
 }

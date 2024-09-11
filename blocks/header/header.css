@@ -405,13 +405,14 @@ header nav .nav-tools button.nav-cart-button[data-count]::after {
 
 header nav .nav-tools button.nav-search-button {
   /* font-size: 0; */
-  background-image: url('/icons/search.svg');
+  background-image: url(/icons/search.svg);
   background-repeat: no-repeat;
   background-position: left;
   background-size: 19px;
-  padding: 5px 15px;
+  padding: 5px 15px 5px 25px;
   margin: 1rem;
   height: 34px;
+  background-color: transparent;
 }
 
 header nav .nav-tools button.nav-search-button:hover,
@@ -524,4 +525,15 @@ header .nav-search-input .search_autocomplete .popover-container {
     left: unset;
     right: 0;
   }
+}
+
+button.button.nav-search-button,
+header nav .nav-tools button.nav-cart-button {
+  color: currentcolor;
+  text-transform: uppercase;
+  font-size: var(--body-font-size-xxs);
+  letter-spacing: 0.16em;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
 }
