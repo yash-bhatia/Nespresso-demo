@@ -6,8 +6,8 @@ header .header-nav-wrapper {
   z-index: 20;
   position: fixed;
   top: 40px;
-  padding: 2em 0;
   border-bottom: 1px solid var(--color-neutral-400);
+  width: 100%;
 }
 
 @media (width < 768px) {
@@ -227,7 +227,7 @@ header nav .nav-sections ul > li > ul > li {
 }
 
 header nav .nav-sections ul > li > a {
-  padding: 1em 1.2em;
+  padding: 0 10px;
 }
 
 header nav .nav-sections ul > li > a.active,
@@ -277,6 +277,7 @@ header nav .nav-sections ul > li > a:hover {
     display: flex;
     gap: 2em;
     margin: 0;
+    justify-content: flex-end;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li {

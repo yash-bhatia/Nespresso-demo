@@ -695,3 +695,9 @@ body > main > div.section.max-width, body > main > div.section.max-width > div{
   width:auto;
   padding: 1px;
 }
+
+.header-nav-wrapper #nav ul li img {
+  height: 24px !important;
+  height: 24px !important;
+  width: 24px !important;
+}
