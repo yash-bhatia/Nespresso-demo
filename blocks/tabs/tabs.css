@@ -19,7 +19,6 @@
 }
 
 .tabs .tabs-list button {
-  flex: 0 0 max-content;
   margin: 0;
   border: 1px solid #dadada;
   border-radius: 0;
@@ -55,4 +54,19 @@
 
 .tabs .tabs-panel[aria-hidden='true'] {
   display: none;
+}
+
+.tabs .tabs-list button {
+  font-size: 13.5px;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+}
+
+.tabs .tabs-list button img {
+  height: 20px;
+  align-self: center;
 }
