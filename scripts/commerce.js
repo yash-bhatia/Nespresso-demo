@@ -310,7 +310,7 @@ export function renderPrice(product, format, html = (strings, ...values) => stri
 /* PDP specific functionality */
 
 export function getSkuFromUrl() {
-  const path = window.location.pathname;
+  const path = decodeURI(window.location.pathname);
   let result;
 
   if (path.startsWith('/experiments/')) {
