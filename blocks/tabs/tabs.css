@@ -37,7 +37,9 @@
 .tabs .tabs-list button p {
   margin: 0;
 }
-
+.tabs .tabs-panel{
+  display: none;
+}
 
 .tabs .tabs-list button[aria-selected='true'] {
   border-bottom: 1px solid var(--background-color);

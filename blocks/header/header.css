@@ -237,7 +237,9 @@ header nav .nav-sections ul > li > a:hover {
   text-decoration: none;
   background-color: var(--color-neutral-200);
 }
-
+#nav > div.section.header-topnav-container.nav-tools > div.minicart-wrapper > button{
+  padding-left: 25px;
+}
 @media (width >= 900px) {
   header nav .nav-sections {
     display: block;
