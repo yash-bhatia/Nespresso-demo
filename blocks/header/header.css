@@ -378,14 +378,13 @@ header nav .nav-tools button.nav-cart-button {
   position: relative;
   background-repeat: no-repeat;
   background-position: left;
-  color:black;
+  color: black;
   background-size: 20px;
-  padding: 5px 15px;
+  padding: 5px 5px 5px 25px;
   margin: 1rem;
   width: auto;
   height: 34px;
 }
-
 header nav .nav-tools button.nav-cart-button[data-count]::after {
   content: attr(data-count);
   position: absolute;

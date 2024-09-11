@@ -71,3 +71,20 @@
 .dropin-design .pdp-product__sku {
   display: none;
 }
+
+
+.section.default-width.top-divider .default-content-wrapper {
+  width: 100%;
+  width: 100vw !important;
+  padding: 0;
+  max-width: none;
+  margin: 0;
+}
+
+main .section.top-divider img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  aspect-ratio: auto;
+  width: 100%;
+}
