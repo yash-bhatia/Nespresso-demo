@@ -227,9 +227,8 @@ header nav .nav-sections ul > li > ul > li {
 }
 
 header nav .nav-sections ul > li > a {
-
   padding: 0 10px;
-
+  align-self: center;
 }
 
 

@@ -752,3 +752,86 @@ h2#the-spirit-of-zurich-in-your-coffee {
 .section.columns-container {
   background: linear-gradient(359deg, #D1DBE1 0%, #F0D2BB 58.36%, #F2D3AB 99%);
 }
+
+.section.default-width.section-title.hero-container {
+  display: flex;
+}
+
+h2#instagram-inspirations--nespresso-moments {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 0;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+.section.carousel-container {
+  background: #f7f2ef;
+  text-align: center;
+}
+
+.carousel .carousel-slide {
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  display: flex;
+  position: relative;
+  width: 100%;
+  flex: 0 0 20vw;
+  padding: 15px;
+  max-width: 15vw;
+}
+.carousel .carousel-slide-image {
+  width: 100%;
+}
+
+.section.default-width.section-title.hero-container {
+  display: flex;
+}
+
+main .hero-container .hero-wrapper {
+  max-width: 100%;
+  width: 100%;
+  height: 500px;
+  padding: 20px;
+}
+
+.hero.block {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-wrapper p.button-container {
+  background: #000;
+  padding: 12px 15px;
+  color: #fff;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0 auto;
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+
+
+.hero-wrapper p.button-container a {
+  font-size: 13.5px;
+  line-height: 22.7px;
+  letter-spacing: 1.1px;
+  color: #fff;
+  font-weight: bold;
+
+}
+
+
+.hero.block div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+}
+
