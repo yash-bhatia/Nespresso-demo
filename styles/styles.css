@@ -701,3 +701,13 @@ body > main > div.section.max-width, body > main > div.section.max-width > div{
   height: 24px !important;
   width: 24px !important;
 }
+
+.tabs-list {
+  border: 10px solid #f6f6f4;
+  display: flex;
+  justify-content: center;
+}
+
+h3#contact-us + ul li:nth-child(4), h3#contact-us + ul li:nth-child(6), h3#contact-us + ul li:nth-child(8) {
+  margin-bottom: 20px;
+}

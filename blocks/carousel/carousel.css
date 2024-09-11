@@ -1,5 +1,5 @@
 .carousel-container {
-  max-width: var(--med-grid-layout);
+  max-width: 1920px;
   padding: 0 15px;
   margin: 0 auto;
 }
