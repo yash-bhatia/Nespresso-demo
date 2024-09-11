@@ -711,3 +711,31 @@ body > main > div.section.max-width, body > main > div.section.max-width > div{
 h3#contact-us + ul li:nth-child(4), h3#contact-us + ul li:nth-child(6), h3#contact-us + ul li:nth-child(8) {
   margin-bottom: 20px;
 }
+
+.section.default-width.section-title.columns-container.recommended-products-container {
+  background: linear-gradient(180deg, #D1DBE1 0%, #F0D2BB 58.36%, #F2D3AB 99%);
+  max-width: none;
+}
+
+h2#not-a-customer-yetyour-welcome-offer {
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 20px;
+  line-height: 24px;
+  line-height: 160%;
+}
+
+.columns.block.columns-2-cols a {
+  font-size: 13.5px;
+  line-height: 22.7px;
+  letter-spacing: 1.1px;
+  background: #000;
+  padding: 12px 15px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 5px;
+}
+
+h2#not-a-customer-yetyour-welcome-offer + p + p {
+  font-size: 12px;
+}
