@@ -284,6 +284,7 @@ header nav .nav-sections ul > li > a:hover {
     flex: 0 1 auto;
     position: relative;
     font-weight: 500;
+    display: flex;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li > ul {

@@ -43,7 +43,7 @@ footer .wrapper {
   
 }
 
-.default-content-wrapper {
+footer  .default-content-wrapper {
   width: 25%;
   min-width: 250px;
 }
