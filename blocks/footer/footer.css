@@ -20,6 +20,9 @@ footer .footer.block {
   }
 }
 
+footer {
+  margin-top: 140px;
+}
 
 footer .footer p, footer .footer h3 {
   margin: 0;
@@ -173,4 +176,14 @@ footer .footer ul li {
   color: #454547;
   display: flex;
   align-items: center;
+}
+
+.section.carousel-container .default-content-wrapper img {
+  width: 100vw !important;
+  max-width: none;
+  margin: 0;
+  /* position: relative; */
+  /* left: -100px; */
+  left: 0;
+  position: absolute;
 }
